@@ -1,0 +1,130 @@
+/* Login */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* > * {
+    font-family: "Poppins", cursive;
+    margin: 0;
+}
+
+.App {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+  }
+
+
+.register{
+    max-width: 978px;
+    width: 100%;
+    display:flex;
+    border: 1px solid #e9ecef;
+    border-radius: 5px;
+    /* box-shadow: 1px 3px 10px #e9ecef; */
+    background-color: FAFAFA;
+    position: centre;
+  }
+  
+
+
+
+  .register span{
+      color: #adb5bd;
+    }
+  
+  #form{
+    
+      max-width: 320px;
+      width: 100vw;
+      margin: 2em auto;
+  }
+  
+  #form >  input, .btn{
+      padding: .9em 1em;
+      border: 4px solid;
+      border-color: #19295a;
+      border-radius: 10px;
+    }
+
+
+    #form > input:focus{
+        outline: none;
+        
+      }
+
+      #form > .btn{
+        background-color: #003049;
+        color: #e9ecef;
+        font-size: 1em;
+        cursor: pointer;
+      }
+      
+      .flex{
+        display: flex;
+        gap: 1em;
+      }
+      
+      .flex-col{
+        flex-direction: column;
+      }
+      
+      .register .col-1{
+        margin: auto;
+        padding: 3em 0;
+      }
+      
+      .register .col-2 img{
+        width: 480px;
+        height: 100%;
+        object-fit: cover;
+        align-self: flex-end;
+        border-top-right-radius: 5px;
+        border-bottom-right-radius: 5px;
+        display: none;
+      }
+      
+      @media screen and (min-width: 500px)  {
+        .register .col-2 img{
+          display: initial;
+        }
+      }
+
+    .element-basic-user {
+        height: 49px;
+        position: relative;
+        width: 49px;
+    }
+    .element-basic-user .icon {
+        height: 45px;
+        left: 2px;
+        position: absolute;
+        top: 2px;
+        width: 45px;
+    }
+
+    .frame {
+        background-color: #ffffff;
+        border: 4px solid;
+        border-color: #19295a;
+        border-radius: 10px;
+        height: 40px;
+        width: 443px;
+        }
+        
+
+        .button {
+            all: unset;
+            background-color: #1c316a;
+            border-radius: 32px;
+            box-sizing: border-box;
+            height: 37px;
+            overflow: hidden;
+            position: relative;
+            width: 153px;
+            }
+        .button .text-wrapper {
+            color: #f7f7ff;
+            font-family: "Arial-Regular", Helvetica;
+            font-size: 30px;}
