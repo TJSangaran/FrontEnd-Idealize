@@ -8,7 +8,6 @@ const Sidebar = ({ children }) => {
   const [isOpen, setIsOpen] = useState(false);
   const toggle = () => setIsOpen(!isOpen);
   const menuItem = [
-    // Home
     {
       path: "/home",
       name: (
@@ -27,7 +26,7 @@ const Sidebar = ({ children }) => {
       ),
       icon: (
         <svg
-          width="30"
+          width="20"
           height="30"
           viewBox="0 0 25 25"
           fill="none"
