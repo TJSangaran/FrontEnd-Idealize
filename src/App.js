@@ -14,15 +14,6 @@ import Login from "./pages/Login.jsx";
 
 const App = () => {
   return (
-    // <div className="bg">
-    //   <BrowserRouter>
-    //     <div className="App">
-    //       <Routes>
-    //         <Route path="/" element={<Login />} />
-    //       </Routes>
-    //     </div>
-    //   </BrowserRouter>
-    // </div>
 
     <div className="app">
       <BrowserRouter>
